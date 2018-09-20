@@ -1,6 +1,7 @@
 Code showing enumeration problems when EP0 size <= 16
 
 To compile for STM32F103 run: make
+
 To compile for STM32F105 run: make CFLAGS=-DSTM32F105
 
 There is always a delay before enumeration succeds or fails.
@@ -49,5 +50,6 @@ Sometimes, when connected in a USB (3.0?) hub with EP0 size <= 16
 
 Compilers tested:
 arm-none-eabi-gcc (GNU Tools for ARM Embedded Processors) 5.4.1 20160919 (release) [ARM/embedded-5-branch revision 240496] in Linux
+
 arm-none-eabi-gcc (GNU Tools for Arm Embedded Processors 7-2018-q2-update) 7.3.1 20180622 (release) [ARM/embedded-7-branch revision 261907] in Linux
 
