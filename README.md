@@ -7,6 +7,7 @@ To compile for STM32F105 run: make CFLAGS=-DSTM32F105
 There is always a delay before enumeration succeds or fails.
 
 In Linux it always succeeds.
+
 In Windows enumeration succeeds if connected to a USB 3.0 controller otherwise fails.
 
 
