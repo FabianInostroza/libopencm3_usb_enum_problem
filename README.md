@@ -8,6 +8,10 @@ There is always a delay before enumeration succeds or fails.
 In Linux it always succeeds.
 In Windows enumeration succeeds if connected to a USB 3.0 controller otherwise fails.
 
+
+In Windows, when enumeration fails, the device managers shows error code 43, he USB device returned an invalid USB device descriptor (message translated from Spanish).
+
+
 dmesg output with EP0 size = 16
 [ 1512.237846] usb 1-1.2: new full-speed USB device number 52 using ehci-pci
 [ 1517.522336] usb 1-1.2: New USB device found, idVendor=0483, idProduct=5740, bcdDevice= 2.00
